@@ -1,0 +1,15 @@
+.Photo {
+    object-fit: cover;
+}
+
+.PhotoContainer {
+    position: relative;
+}
+
+.PhotoContainer:hover > .PreviewOverlay {
+   display: flex;
+}
+
+.PreviewOverlay {
+    display: none;
+}

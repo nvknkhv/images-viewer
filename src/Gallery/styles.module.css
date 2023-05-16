@@ -1,0 +1,18 @@
+.Gallery {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.Gallery :where(*, *::before, *::after) {
+    box-sizing: content-box;
+}
+
+.Gallery :where(img) {
+    height: 100%;
+}
+
+.GalleryVirtualizerWrapper {
+    overflow-y: auto;
+    height: 100%;
+}

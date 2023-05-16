@@ -1,0 +1,28 @@
+.Layout {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.Content {
+    height: calc(100% - 152px);
+    width: 100%;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    padding: 0 48px 24px;
+}
+
+.LogoIcon {
+    width: 48px;
+    height: 48px;
+}
+
+.GalleryPageHeader {
+    height: 128px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    padding: 0 24px;
+}

@@ -1,0 +1,19 @@
+.Toolbar {
+    height: 128px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+
+.Toolbar img + div {
+    width: 100%;
+}
+
+.LogoIcon {
+    width: 48px;
+    height: 48px;
+}
