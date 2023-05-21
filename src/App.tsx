@@ -1,11 +1,11 @@
 import React, { useEffect, useState, createContext, useContext } from 'react';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 
 import { GlobalModal, GlobalModalProvider } from '~/components/globalModal';
 
 import routes from './routes';
 
-const router = createBrowserRouter(routes);
+const router = createHashRouter(routes);
 
 function App() {
   return (
